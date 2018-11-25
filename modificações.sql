@@ -6,3 +6,7 @@ INSERT INTO `CIRURGIAS` (`dataCir`, `feedback`, `crm`, `cpf`, `andar`, `numero`)
 --query para o item c
 
 SELECT CLIENTES.nome FROM CLIENTES, CIRURGIAS WHERE CLIENTES.cpf = CIRURGIAS.cpf AND YEAR(CLIENTES.dataNascCli) < 1953 AND CIRURGIAS.crm = 11011;
+
+--query para o item d
+
+SELECT MEDICOS.nome FROM MEDICOS, CIRURGIAS WHERE MEDICOS.crm = CIRURGIAS.crm AND MEDICOS.salario > 10000.00 AND MONTH(CIRURGIAS.dataCir) = 05 GROUP BY CIRURGIAS.crm HAVING COUNT(CIRURGIAS.crm) = 45;

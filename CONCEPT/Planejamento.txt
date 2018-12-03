@@ -1,20 +1,20 @@
-Médico (nome completo, data de nascimento, CRM, lista de clientes, salário, usuário, senha)
+MÃ©dico (nome completo, data de nascimento, CRM, lista de clientes, salÃ¡rio, usuÃ¡rio, senha).
 
-Cliente (nome completo, data de nascimento, CPF)
+Cliente (nome completo, data de nascimento, CPF).
 
-Cirurgia (médico, cliente, sala, data, hora, feedback)
+Cirurgia (mÃ©dico, cliente, sala, data, hora, feedback).
 
-Sala (andar, número)
+Sala (andar, nÃºmero).
 
-Gerente (nome completo, data de nascimento, matrícula, salário, usuário, senha)
+Gerente (nome completo, data de nascimento, matrÃ­cula, salÃ¡rio, usuÃ¡rio, senha).
 
-*O médico é caracterizado pelo nome completo, data de nascimento, CRM único, usuário único, senha, salário e uma lista de clientes.
+*O mÃ©dico Ã© caracterizado pelo nome completo, data de nascimento, CRM Ãºnico, usuÃ¡rio Ãºnico, senha, salÃ¡rio e uma lista de clientes.
 
-*Um cliente é formado pelo nome completo, data de nascimento e CPF único.
+*Um cliente Ã© formado pelo nome completo, data de nascimento e CPF Ãºnico.
 
-*A cirurgia identifica-se pelo médico que a realizou, pelo cliente atendido, pela sala em que foi realizada, pela data e hora, e atribui-se feedback.
+*A cirurgia identifica-se pelo mÃ©dico que a realizou, pelo cliente atendido, pela sala em que foi realizada, pela data e hora, e atribui-se feedback.
 
-*As salas são identificadas pelo andar e pelo número que formam uma combinação única.
+*As salas sÃ£o identificadas pelo andar e pelo nÃºmero que formam uma combinaÃ§Ã£o Ãºnica.
 
-*O Gerente é caracterizado pelo nome completo, data de nascimento, matrícula uníca, salário, usuário único e senha.
+*O Gerente Ã© caracterizado pelo nome completo, data de nascimento, matrÃ­cula unÃ­ca, salÃ¡rio, usuÃ¡rio Ãºnico e senha.
 
